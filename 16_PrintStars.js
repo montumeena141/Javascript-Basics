@@ -106,4 +106,5 @@ for (var i = 1; i <= 5; i++) {
         r = r + i;
     }
     console.log(r);
+    
 }
