@@ -33,9 +33,9 @@ let allSubarrays = [];
 
 // Generating all possible subarrays
 for (let start = 0; start < arr15.length; start++) {
-  for (let end = start + 1; end < arr15.length; end++) {
-    allSubarrays.push(arr15.slice(start, end));
+    for (let end = start + 1; end < arr15.length; end++) {
+      allSubarrays.push(arr15.slice(start, end));
+    }
   }
-}
-
-console.log("All Possible Subarrays:", allSubarrays);
+  
+  console.log("All Possible Subarrays:", allSubarrays);
