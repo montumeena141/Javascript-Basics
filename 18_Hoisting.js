@@ -19,7 +19,7 @@
 // Variable Declaration & Re-assignment
 let x = "msd"; // Initializing variable
 x = "vk"; // Reassigning value
-console.log(x);
+console.log(x); 
 
 // Function to Sum Two Numbers
 function sum(a, b) {
